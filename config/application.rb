@@ -33,6 +33,7 @@ module RailsReactTtt
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    config.require_master_key = true  
     config.assets.initialize_on_precompile = false
   end
 end
