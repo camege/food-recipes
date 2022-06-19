@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: rails_react_ttt_development
+  database: pacific-thicket-98817_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: rails_react_ttt_production
-  username: rails_react_ttt
+  database: pacific-thicket-98817_production
+  username: pacific-thicket-98817
   password: <%= ENV["RAILS_REACT_TTT_DATABASE_PASSWORD"] %>
