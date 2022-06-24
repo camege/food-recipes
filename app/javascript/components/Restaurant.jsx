@@ -1,6 +1,8 @@
 import React from "react";
 import { Link, useParams, useNavigate, Navigate } from "react-router-dom";
 
+// just to make a change to create a pull request
+
 function getID(){
   const id = useParams();
   return id;
@@ -109,7 +111,7 @@ class Restaurant extends React.Component {
             </div>
           </div>
           <Link to="/restaurants" className="btn btn-link">
-            Back to restaurants
+            Back to restaurant reviews
           </Link>
         </div>
       </div>
